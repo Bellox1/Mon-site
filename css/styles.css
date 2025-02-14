@@ -7808,11 +7808,11 @@ textarea.form-control-lg {
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
-
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-bordureleft-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(33, 37, 41, var(--bs-bg-opacity)) !important;
 }
+
 
 .bg-secondary {
   --bs-bg-opacity: 1;
