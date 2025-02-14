@@ -11434,6 +11434,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
 @media (max-width: 768px) { /* Pour les petits écrans */
   .profil-link {
     display: block; /* Rend le lien cliquable */
@@ -11461,4 +11463,3 @@ section.resume-section .resume-section-content {
     display: none;
   }
 }
-
