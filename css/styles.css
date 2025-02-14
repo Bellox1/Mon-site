@@ -11434,3 +11434,26 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+@media (max-width: 768px) { /* Pour les petits écrans */
+  .profil-link {
+    display: block; /* Rend le lien cliquable */
+  }
+
+  .profil-image {
+    margin-top: -100px;
+    mix-blend-mode: multiply; /* Supprime le fond blanc */
+    width: 100%; /* L'image prend toute la largeur */
+    height: 250px; /* Garde les proportions */
+    display: block; /* Évite les espaces autour */
+    object-fit: cover; /* S'assure que l'image couvre bien */
+  }
+}
+
+@media (min-width: 769px) { /* Cache l'image sur les grands écrans */
+  .profil-link {
+    display: none;
+  }
+}
+
