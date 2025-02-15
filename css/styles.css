@@ -11442,7 +11442,7 @@ section.resume-section .resume-section-content {
   }
 
   .profil-image {
-    margin-top: -100px;
+    /*margin-top: -100px;*/
     mix-blend-mode: multiply; /* Supprime le fond blanc */
     width: 100%; /* L'image prend toute la largeur */
     height: 200px; /* Hauteur par défaut pour les petits écrans */
