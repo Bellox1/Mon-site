@@ -11442,14 +11442,11 @@ section.resume-section .resume-section-content {
   }
 
   .profil-image {
-    margin-top: -100px;
-    mix-blend-mode: multiply; /* Supprime le fond blanc */
     width: 100%; /* L'image prend toute la largeur */
-    height: 200px; /* Hauteur par défaut pour les petits écrans */
+    height: auto; /* Garde les proportions */
     display: block; /* Évite les espaces autour */
     object-fit: cover; /* S'assure que l'image couvre bien */
-    background-color: #713822;
-}
+  }
 }
 
 @media (min-width: 769px) { /* Cache l'image sur les grands écrans */
