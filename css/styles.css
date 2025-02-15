@@ -11450,12 +11450,6 @@ section.resume-section .resume-section-content {
     object-fit: cover; /* S'assure que l'image couvre bien */
     background-color: #713822;
 }
-
-/* Correction de la media query pour 592px */
-@media (max-width: 592px) { 
-  .profil-image {
-    height: 350px; /* Augmente la hauteur */
-  }
 }
 
 @media (min-width: 769px) { /* Cache l'image sur les grands écrans */
