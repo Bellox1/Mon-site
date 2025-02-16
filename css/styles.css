@@ -11446,6 +11446,7 @@ section.resume-section .resume-section-content {
     height: auto; /* Garde les proportions */
     display: block; /* Évite les espaces autour */
     object-fit: cover; /* S'assure que l'image couvre bien */
+    background-color: #5a2d1b;
   }
 }
 
